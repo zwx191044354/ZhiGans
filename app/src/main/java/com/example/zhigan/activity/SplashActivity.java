@@ -1,7 +1,9 @@
-package com.example.zhigan;
+package com.example.zhigan.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.zhigan.R;
 
 public class SplashActivity extends AppCompatActivity {
 

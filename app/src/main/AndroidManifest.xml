@@ -3,12 +3,14 @@
     package="com.example.zhigan">
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".activity.SplashActivity"
+            android:theme="@style/FullWindowTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
